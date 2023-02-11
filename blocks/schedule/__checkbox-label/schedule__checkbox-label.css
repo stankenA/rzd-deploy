@@ -1,0 +1,12 @@
+.schedule__checkbox-label {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.schedule__checkbox-label:hover .schedule__checkbox-txt {
+  opacity: .7;
+}

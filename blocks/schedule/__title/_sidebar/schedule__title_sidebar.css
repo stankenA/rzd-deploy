@@ -1,0 +1,5 @@
+.schedule__title_sidebar {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: var(--sidebar-content-width);
+}

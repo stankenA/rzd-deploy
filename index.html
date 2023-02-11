@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>РЖД</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__upper">
+      <div class="header__logo-container">
+        <a href="./index.html" class="header__logo-link link"><img src="./images/rzd__logo.svg" alt="Логотип РЖД"
+            class="header__logo"></a>
+        <p class="header__logo-txt">
+          Северо-Западная пригородная пассажирская компания
+        </p>
+      </div>
+      <div class="header__right-side">
+        <a href="#" class="header__special-vision-link link">
+          <p class="header__special-vision-txt">
+            Версия для слабовидящих
+          </p>
+          <span class="header__special-vision-icon"></span>
+        </a>
+        <span class="header__line"></span>
+        <a href="#" class="header__profile-link link">
+          <span class="header__profile-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="header__wrapper header__wrapper_main-page">
+      <div class="header__content">
+        <nav class="header__nav">
+          <ul class="header__list list">
+            <li class="header__list-item"><a href="./tariffs.html"
+                class="header__link button button_white">пассажирам</a></li>
+            <li class="header__list-item"><a href="./activities.html" class="header__link button button_white">о
+                компании</a></li>
+            <li class="header__list-item"><a href="./corporate-transportation.html"
+                class="header__link button button_white">вопрос/ответ</a></li>
+            <li class="header__list-item"><a href="./press.html"
+                class="header__link button button_white">пресс-центр</a></li>
+            <li class="header__list-item"><a href="./contacts.html"
+                class="header__link button button_white">контакты</a></li>
+          </ul>
+          <form name="search-form" class="header__form">
+            <input type="search" class="header__input input" id="search" name="headerSearch" autocomplete="off">
+            <button type="button" class="header__search-btn button"></button>
+          </form>
+        </nav>
+        <div class="header__main-mobile">
+        </div>
+        <div class="schedule">
+          <h2 class="schedule__title">Расписание движения и стоимости проезда</h2>
+          <form name="search-form" class="schedule__form">
+            <fieldset class="schedule__fieldset fieldset">
+              <input type="text" class="schedule__input input" id="from" name="from" autocomplete="off"
+                placeholder="откуда">
+              <button type="button" class="schedule__swap-btn button"></button>
+              <input type="text" class="schedule__input input" id="to" name="to" autocomplete="off" placeholder="куда">
+              <input type="date" class="schedule__input schedule__input_type_date input" id="when" name="when"
+                autocomplete="off">
+              <div class="schedule__search">
+                <button class="schedule__search-btn button button_black">найти</button>
+                <div class="schedule__checkbox-container">
+                  <label for="remember" class="schedule__checkbox-label">
+                    <input type="checkbox" id="remember" name="remember" class="schedule__checkbox input">
+                    <span class="schedule__checkmark"></span>
+                    <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="index-content">
+    <section class="info">
+      <div class="info__block">
+        <div class="info__swiper">
+          <ul class="info__swiper-wrapper swiper-wrapper list">
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link button button_red link">читать статью</a>
+              </div>
+            </li>
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link button button_red link">читать статью</a>
+              </div>
+            </li>
+            <li class="info__swiper-slide swiper-slide">
+              <img src="./images/swiper__slide_1.jpg" alt="Поезд в снегу" class="info__swiper-img">
+              <div class="info__swiper-slide-content">
+                <h2 class="info__swiper-title">Куда отправиться на зимние праздники?</h2>
+                <a href="#" class="info__swiper-link button button_red link">читать статью</a>
+              </div>
+            </li>
+          </ul>
+          <span class="info__swiper-button info__swiper-button_prev"></span>
+          <span class="info__swiper-button info__swiper-button_next"></span>
+          <span class="info__swiper-pagination"></span>
+        </div>
+      </div>
+      <div class="info__cells">
+        <div class="info__column">
+          <div class="info__cell info__cell_opened info__cell_type_privilege">
+            <h2 class="info__title">Льготы</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Федеральные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Региональные льготы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Школьники и студенты</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+          <div class="info__cell info__cell_type_work">
+            <h2 class="info__title">Режим работы</h2>
+            <ul class="info__list list">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Билетные кассы</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Терминалы самообслуживания</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Турникетные линейки</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+        </div>
+        <div class="info__column">
+          <div class="info__cell info__cell_type_scheme">
+            <h2 class="info__title">Схемы маршрутов</h2>
+            <ul class="info__list list">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Санкт-Петербург и Лен область</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Новгородская область</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Псковская область</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Мурманская область</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+          <div class="info__cell info__cell_opened info__cell_type_economy">
+            <h2 class="info__title">Экономьте время и ресурсы</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Абонементные билеты</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Терминалы самообслуживания</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Мобильное приложение</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Единый комбинированный билет</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+        </div>
+        <div class="info__column">
+          <div class="info__cell info__cell_opened info__cell_type_low-mob">
+            <h2 class="info__title">Маломобильные пассажиры</h2>
+            <ul class="info__list list info__list_opened">
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Карта доступности объектов АО “СЗППК”</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Центр содействия мобильности</a>
+              </li>
+              <li class="info__list-item">
+                <a href="#" class="info__link link">Оформление заявок на услуги</a>
+              </li>
+            </ul>
+            <span class="info__cell-btn"></span>
+          </div>
+          <div class="info__cell info__cell_type_director">
+            <h2 class="info__title">Приемная генерального директора</h2>
+            <ul class="info__list info__list_type_director list">
+              <img src="./images/info__cell_type-director.svg" alt="Иконка почты" class="info__list-img">
+              <a href="#" class="info__link-director link">Перейти</a>
+            </ul>
+            <span class="info__cell-btn info__cell-btn_rotate"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__wrapper">
+        <h2 class="news__title">Новости</h2>
+        <div class="news__card-container">
+          <article class="news__card">
+            <img src="./images/news__card-img.jpg" alt="Описание картинки" class="news__img">
+            <div class="news__card-content">
+              <span class="news__card-date">09.12.2022</span>
+              <p class="news__card-brief">
+                Тактовое движение электропоездов запустили между Санкт-Петербургом и Павловском
+              </p>
+              <a href="#" class="news__card-link button button_red link">читать</a>
+            </div>
+          </article>
+          <article class="news__card">
+            <img src="./images/news__card-img.jpg" alt="Описание картинки" class="news__img">
+            <div class="news__card-content">
+              <span class="news__card-date">09.12.2022</span>
+              <p class="news__card-brief">
+                Тактовое движение электропоездов запустили между Санкт-Петербургом и Павловском
+              </p>
+              <a href="#" class="news__card-link button button_red link">читать</a>
+            </div>
+          </article>
+          <article class="news__card">
+            <img src="./images/news__card-img.jpg" alt="Описание картинки" class="news__img">
+            <div class="news__card-content">
+              <span class="news__card-date">09.12.2022</span>
+              <p class="news__card-brief">
+                Тактовое движение электропоездов запустили между Санкт-Петербургом и Павловском
+              </p>
+              <a href="#" class="news__card-link button button_red link">читать</a>
+            </div>
+          </article>
+        </div>
+        <ul class="news__list list">
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+          <li class="news__list-item">
+            <a href="#" class="news__link link">
+              <span class="news__date">09.12.2022</span>
+              <p class="news__txt">
+                Запуск тактового движения и изменение в графике пригородных поездов на 2023 год: об этом в интервью
+                генерального директора АО “СЗППК” Артема Мирон изданию “Петербургский дневник”
+              </p>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="news__see-all-link link">смотреть всё &#10230;</a>
+      </div>
+    </section>
+    <section class="tourist">
+      <h2 class="tourist__title">Туристу на заметку</h2>
+      <div class="tourist__block">
+        <div class="tourist__swiper">
+          <ul class="tourist__swiper-wrapper swiper-wrapper list">
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+            <li class="tourist__swiper-slide swiper-slide">
+              <img src="./images/tourist__slide-1.jpg" alt="Описание картинки" class="tourist__swiper-img">
+              <div class="tourist__swiper-slide-content">
+                <h3 class="tourist__swiper-title">Групповые экскурсии</h3>
+                <a href="#" class="tourist__swiper-link button button_white link">подробнее</a>
+              </div>
+            </li>
+          </ul>
+          <span class="tourist__swiper-pagination"></span>
+        </div>
+      </div>
+    </section>
+    <section class="app">
+      <img src="./images/app__hand.png" alt="Изображение приложения" class="app__img">
+      <div class="app__container">
+        <div class="app__wrapper">
+          <h2 class="app__title">Удобнее с приложением</h2>
+          <p class="app__txt">
+            Мобильное приложение «РЖД Пассажирам» сделает вашу поездку на пригородном пассажирском поезде еще проще и
+            комфортнее
+          </p>
+          <div class="app__buttons">
+            <a href="#" class="app__link button button_white link">подробнее</a>
+            <a href="#" class="app__link button button_white link">установить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__upper">
+        <div class="footer__block footer__block_type_socials">
+          <h2 class="footer__title">ЦЕНТР ПОДДЕРЖКИ КЛИЕНТОВ ОАО “РЖД”:</h2>
+          <a href="tel:+78007750000" class="footer__number link">8 800 775 0000</a>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link link">
+              <img src="./images/icon__vk_gray.svg" alt="Иконка ВКонтакте" class="footer__social-icon">
+              <p class="footer__social-txt">ВКонтакте</p>
+            </a>
+            <span class="footer__line"></span>
+            <a href="#" class="footer__social-link link">
+              <img src="./images/icon__izi_gray.jpg" alt="Иконка izi" class="footer__social-icon">
+              <p class="footer__social-txt">Мобильный аудиогид</p>
+            </a>
+          </div>
+        </div>
+        <span class="footer__line"></span>
+        <div class="footer__block footer__block_type_contacts">
+          <h2 class="footer__title">КОНТАКТЫ КОМПАНИИ:</h2>
+          <ul class="footer__contacts-list list">
+            <li class="footer__contacts-list-item">+7 (812) 458-68-68</li>
+            <li class="footer__contacts-list-item">OfRas_SZPPK@orw.ru</li>
+            <li class="footer__contacts-list-item">190068, г. Санкт-Петербург Римского-Корсакова пр., д. 47, лит. А</li>
+          </ul>
+        </div>
+        <span class="footer__line"></span>
+        <div class="footer__block footer__block_type_nav">
+          <nav class="footer__nav">
+            <ul class="footer__list list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#" class="footer__bottom-link link">
+          <img src="./images/footer__logo.jpg" alt="Логотип РЖД" class="footer__bottom-img">
+        </a>
+        <p class="footer__bottom-txt">
+          © 2023 АО «Северо-Западная пригородная пассажирская компания» Лицензия на осуществление деятельности по
+          перевозкам железнодорожным транспортом пассажиров в пригородном сообщении ПП № 7807537 Все материалы сайта
+          принадлежат АО «Северо-Западная пригородная пассажирская компания». Использование материалов, опубликованных
+          на сайте, возможно только со ссылкой на сайт. Официальный сайт ОАО «РЖД» www.rzd.ru
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="./pages/index.js" defer></script>
+</body>
+
+</html>

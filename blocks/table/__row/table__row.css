@@ -1,0 +1,11 @@
+.table__row {
+  display: flex;
+  min-height: 52px;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 23px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  position: relative;
+}

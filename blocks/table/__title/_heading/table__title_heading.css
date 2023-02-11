@@ -1,0 +1,10 @@
+.table__title_heading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.table__title_heading:first-child {
+  flex-basis: 192px;
+}

@@ -1,0 +1,6 @@
+.form__input_type_textarea {
+  padding-top: 12px;
+  padding-right: 12px;
+  min-height: 123px;
+  resize: none;
+}

@@ -1,0 +1,10 @@
+.media__btn {
+  width: 24px;
+  height: 24px;
+  display: block;
+  transition: all .4s ease;
+}
+
+.media__btn:hover {
+  opacity: .5;
+}

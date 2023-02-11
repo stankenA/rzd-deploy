@@ -1,0 +1,10 @@
+.info__cell-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 13px;
+  width: 33px;
+  height: 33px;
+  display: block;
+  background: url(../../../images/icon__up.svg) no-repeat center;
+  transition: all .4s ease;
+}

@@ -1,0 +1,6 @@
+.form__txt-block {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  justify-content: flex-end;
+}

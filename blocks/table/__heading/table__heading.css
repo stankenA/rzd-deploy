@@ -1,0 +1,10 @@
+.table__heading {
+  background: #7F7F7F;
+  border-radius: 20px 20px 5px 5px;
+  box-sizing: border-box;
+  padding-left: 23px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-bottom: 6px;
+}

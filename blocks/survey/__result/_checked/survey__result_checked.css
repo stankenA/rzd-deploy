@@ -1,0 +1,5 @@
+.survey__result_checked {
+  visibility: visible;
+  opacity: 1;
+  height: 16px;
+}

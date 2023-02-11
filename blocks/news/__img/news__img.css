@@ -1,0 +1,8 @@
+.news__img {
+  width: 207px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.25);
+}

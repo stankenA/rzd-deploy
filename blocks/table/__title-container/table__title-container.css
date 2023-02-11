@@ -1,0 +1,5 @@
+.table__title-container {
+  flex-basis: 190px;
+  margin-right: 10px;
+  display: flex;
+}

@@ -1,0 +1,4 @@
+.tariff__row_clickable {
+  min-height: 85px;
+  cursor: pointer;
+}

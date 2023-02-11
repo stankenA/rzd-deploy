@@ -1,0 +1,6 @@
+.press__img {
+  width: 267px;
+  height: 267px;
+  border-radius: 10px;
+  object-fit: cover;
+}

@@ -1,0 +1,9 @@
+.page {
+  background-color: #F5F5F5;
+  color: #000;
+  font-family: Gilroy, Arial, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  --wrapper-width: 1320px;
+  --content-width: 874px;
+}

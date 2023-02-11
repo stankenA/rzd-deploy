@@ -1,0 +1,7 @@
+.press__block {
+  margin-top: 21px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 365px;
+}

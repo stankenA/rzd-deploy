@@ -1,0 +1,18 @@
+.ref__txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ref__txt::after {
+  content: '';
+  background: url(../../../images/icon__ref_black.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  display: block;
+  transition: all .4s ease;
+}

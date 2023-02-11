@@ -1,0 +1,7 @@
+.header_sticky {
+  position: sticky;
+  top: -105px;
+  z-index: 2;
+  background: #F5F5F5;
+  border-radius: 20px;
+}

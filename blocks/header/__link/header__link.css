@@ -1,0 +1,9 @@
+.header__link {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  width: 155px;
+  height: 44px;
+  padding-bottom: 4px;
+  text-decoration: none;
+}

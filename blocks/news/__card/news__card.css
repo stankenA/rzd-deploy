@@ -1,0 +1,8 @@
+.news__card {
+  width: 373px;
+  height: 217px;
+  background: #FFFFFF;
+  box-shadow: 0px 17px 20px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+  display: flex;
+}

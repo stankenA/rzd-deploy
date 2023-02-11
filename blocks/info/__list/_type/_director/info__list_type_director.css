@@ -1,0 +1,6 @@
+.info__list_type_director {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10%;
+}

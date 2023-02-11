@@ -1,0 +1,6 @@
+.header__profile-icon {
+  background: url(../../../images/icon__profile.svg) center;
+  display: block;
+  width: 33px;
+  height: 33px;
+}

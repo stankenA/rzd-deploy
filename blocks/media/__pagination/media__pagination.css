@@ -1,0 +1,7 @@
+.media__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 301px;
+  margin: 0 auto;
+}

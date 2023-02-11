@@ -1,0 +1,10 @@
+.media__read {
+  width: 168px;
+  height: 38px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.media__read:hover {
+  border: 1px solid #fff;
+}

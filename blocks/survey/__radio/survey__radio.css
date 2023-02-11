@@ -1,0 +1,9 @@
+.survey__radio {
+  display: none;
+}
+
+.survey__radio:checked~.survey__label::before {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}

@@ -1,0 +1,5 @@
+.survey__list {
+  margin-left: 35px;
+  width: 100%;
+  transition: all .4s ease;
+}

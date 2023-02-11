@@ -1,0 +1,14 @@
+.info__swiper-button {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 42%;
+  display: block;
+  z-index: 2;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.info__swiper-button:hover {
+  opacity: .6;
+}

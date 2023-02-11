@@ -1,0 +1,8 @@
+.form__input {
+  width: var(--input-width);
+  min-height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}

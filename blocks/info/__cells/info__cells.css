@@ -1,0 +1,4 @@
+.info__cells {
+  display: flex;
+  justify-content: space-between;
+}

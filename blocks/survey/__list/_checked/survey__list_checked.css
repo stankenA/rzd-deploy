@@ -1,0 +1,16 @@
+.survey__list_checked {
+  margin-left: 0;
+}
+
+.survey__list_checked .survey__label {
+  user-select: none;
+  pointer-events: none;
+}
+
+.survey__list_checked .survey__label::after {
+  display: none;
+}
+
+.survey__list_checked .survey__label::before {
+  display: none;
+}

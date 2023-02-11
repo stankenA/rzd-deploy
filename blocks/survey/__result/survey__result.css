@@ -1,0 +1,9 @@
+.survey__result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .4s ease;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}

@@ -1,0 +1,9 @@
+.tariff__tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tariff__tooltip:hover .tariff__tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}

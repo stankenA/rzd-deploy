@@ -1,0 +1,7 @@
+.tariff__tooltip-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/icon__tooltip.svg) no-repeat center;
+  position: relative;
+}

@@ -1,0 +1,7 @@
+.info__list {
+  position: absolute;
+  bottom: 22px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s ease;
+}

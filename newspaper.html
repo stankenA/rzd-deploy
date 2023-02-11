@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>РЖД</title>
+  <link rel="stylesheet" href="./pages/pages.css">
+</head>
+
+<body class="page">
+  <header class="header header_sticky">
+    <div class="header__upper">
+      <div class="header__logo-container">
+        <a href="./index.html" class="header__logo-link link"><img src="./images/rzd__logo.svg" alt="Логотип РЖД"
+            class="header__logo"></a>
+        <p class="header__logo-txt">
+          Северо-Западная пригородная пассажирская компания
+        </p>
+      </div>
+      <div class="header__right-side">
+        <a href="#" class="header__special-vision-link link">
+          <p class="header__special-vision-txt">
+            Версия для слабовидящих
+          </p>
+          <span class="header__special-vision-icon"></span>
+        </a>
+        <span class="header__line"></span>
+        <a href="#" class="header__profile-link link">
+          <span class="header__profile-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="header__wrapper">
+      <div class="header__content">
+        <nav class="header__nav">
+          <ul class="header__list list">
+            <li class="header__list-item"><a href="./tariffs.html"
+                class="header__link button button_white">пассажирам</a></li>
+            <li class="header__list-item"><a href="./activities.html" class="header__link button button_white">о
+                компании</a></li>
+            <li class="header__list-item"><a href="#" class="header__link button button_white">вопрос/ответ</a></li>
+            <li class="header__list-item"><a href="./press.html"
+                class="header__link button button_white">пресс-центр</a></li>
+            <li class="header__list-item"><a href="./contacts.html"
+                class="header__link button button_white">контакты</a></li>
+          </ul>
+          <form name="search-form" class="header__form">
+            <input type="search" class="header__input input" id="search" name="headerSearch" autocomplete="off">
+            <button type="button" class="header__search-btn button"></button>
+          </form>
+        </nav>
+        <div class="header__main-mobile">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper wrapper_flex">
+    <div class="side">
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__list-item">
+            <a href="./press.html" class="nav__link link">Пресс-центр</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./news.html" class="nav__link link">Новости компании</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./photos.html" class="nav__link link">Фотогалерея</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./video.html" class="nav__link link">Видеоматериалы</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./newspaper.html" class="nav__link nav__link_active link">Газета “Уважаемые пассажиры”</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link link">Список опросов</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="schedule">
+        <h2 class="schedule__title schedule__title_sidebar">Расписание движения и стоимости проезда</h2>
+        <form name="search-form" class="schedule__form schedule__form_sidebar">
+          <fieldset class="schedule__fieldset schedule__fieldset_sidebar fieldset">
+            <input type="text" class="schedule__input schedule__input_sidebar input" id="from" name="from"
+              autocomplete="off" placeholder="откуда">
+            <button type="button" class="schedule__swap-btn button"></button>
+            <input type="text" class="schedule__input schedule__input_sidebar input" id="to" name="to"
+              autocomplete="off" placeholder="куда">
+            <input type="date" class="schedule__input schedule__input_sidebar input" id="when" name="when"
+              autocomplete="off">
+            <div class="schedule__search schedule__search_sidebar">
+              <button class="schedule__search-btn schedule__search-btn_sidebar button button_black">найти</button>
+              <div class="schedule__checkbox-container">
+                <label for="remember" class="schedule__checkbox-label">
+                  <input type="checkbox" id="remember" name="remember" class="schedule__checkbox input">
+                  <span class="schedule__checkmark"></span>
+                  <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <main class="content">
+      <div class="breadcrumbs">
+        <a href="./press.html" class="breadcrumbs__link link">Пресс-центр</a>
+        <span class="breadcrumbs__line">&#47;</span>
+        <a href="./video.html" class="breadcrumbs__link breadcrumbs__link_active link">Газета “Уважаемые Пассажиры”</a>
+      </div>
+      <section class="video">
+        <h1 class="video__title title">Газета “Уважаемые Пассажиры”</h1>
+        <p class="video__txt txt">
+          АО «Северо-Западная пригородная пассажирская компания» совместно с издательским домом «Гудок» выпускает газету
+          для пассажиров пригородных поездов под названием «Уважаемые пассажиры». Издание выходит один раз в месяц и
+          бесплатно распространяется в пригородных поездах и пригородных кассах.
+        </p>
+        <ul class="media list">
+          <li class="media__card media__card_type_newspaper">
+            <a href="#" class="media__link">
+              <img src="./images/newspaper__img-1.jpg" alt="Фото из галлереи"
+                class="media__img media__img_type_newspaper">
+              <div class="media__block">
+                <p class="media__txt media__txt_type_newspaper">
+                  № 12 2021
+                </p>
+                <button type="button" class="media__read button button_white">читать</button>
+              </div>
+            </a>
+          </li>
+          <li class="media__card media__card_type_newspaper">
+            <a href="#" class="media__link">
+              <img src="./images/newspaper__img-1.jpg" alt="Фото из галлереи"
+                class="media__img media__img_type_newspaper">
+              <div class="media__block">
+                <p class="media__txt media__txt_type_newspaper">
+                  № 12 2021
+                </p>
+                <button type="button" class="media__read button button_white">читать</button>
+              </div>
+            </a>
+          </li>
+          <li class="media__card media__card_type_newspaper">
+            <a href="#" class="media__link">
+              <img src="./images/newspaper__img-1.jpg" alt="Фото из галлереи"
+                class="media__img media__img_type_newspaper">
+              <div class="media__block">
+                <p class="media__txt media__txt_type_newspaper">
+                  № 12 2021
+                </p>
+                <button type="button" class="media__read button button_white">читать</button>
+              </div>
+            </a>
+          </li>
+          <li class="media__card media__card_type_newspaper">
+            <a href="#" class="media__link">
+              <img src="./images/newspaper__img-1.jpg" alt="Фото из галлереи"
+                class="media__img media__img_type_newspaper">
+              <div class="media__block">
+                <p class="media__txt media__txt_type_newspaper">
+                  № 12 2021
+                </p>
+                <button type="button" class="media__read button button_white">читать</button>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="media__pagination">
+          <button type="button" class="media__btn media__btn_prev button"></button>
+          <ul class="media__pages list">
+            <li class="media__item">
+              <a href="#" class="media__number link">1</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number media__number_active link">2</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number link">3</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number link">4</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number link">5</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number link">...</a>
+            </li>
+            <li class="media__item">
+              <a href="#" class="media__number link">306</a>
+            </li>
+          </ul>
+          <button type="button" class="media__btn media__btn_next button"></button>
+        </div>
+      </section>
+      <section class="survey">
+        <div class="survey__wrapper">
+          <h2 class="survey__title title">Опрос</h2>
+          <p class="survey__subtitle">Каким способом Вы обычно оплачиваете билеты?</p>
+          <div class="survey__block">
+            <ul class="survey__list list">
+              <li class="survey__item">
+                <input name="radio" id="radio1" type="radio" class="survey__radio">
+                <label for="radio1" class="survey__label">Наличными в пригородных кассах и поездах</label>
+                <div class="survey__result">
+                  <div class="survey__track">
+                    <div class="survey__fill"></div>
+                  </div>
+                  <span class="survey__number">80%</span>
+                </div>
+              </li>
+              <li class="survey__item">
+                <input name="radio" id="radio2" type="radio" class="survey__radio">
+                <label for="radio2" class="survey__label">Банковской картой в пригородных кассах</label>
+                <div class="survey__result">
+                  <div class="survey__track">
+                    <div class="survey__fill"></div>
+                  </div>
+                  <span class="survey__number">80%</span>
+                </div>
+              </li>
+              <li class="survey__item">
+                <input name="radio" id="radio3" type="radio" class="survey__radio">
+                <label for="radio3" class="survey__label">Наличными в терминалах самообслуживания</label>
+                <div class="survey__result">
+                  <div class="survey__track">
+                    <div class="survey__fill"></div>
+                  </div>
+                  <span class="survey__number">80%</span>
+                </div>
+              </li>
+              <li class="survey__item">
+                <input name="radio" id="radio4" type="radio" class="survey__radio">
+                <label for="radio4" class="survey__label">Банковской картой в терминалах самообслуживания</label>
+                <div class="survey__result">
+                  <div class="survey__track">
+                    <div class="survey__fill">
+                    </div>
+                  </div>
+                  <span class="survey__number">80%</span>
+                </div>
+              </li>
+              <li class="survey__item">
+                <input name="radio" id="radio5" type="radio" class="survey__radio">
+                <label for="radio5" class="survey__label">Через мобильное приложение</label>
+                <div class="survey__result">
+                  <div class="survey__track">
+                    <div class="survey__fill"></div>
+                  </div>
+                  <span class="survey__number">80%</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__upper">
+        <div class="footer__block footer__block_type_socials">
+          <h2 class="footer__title">ЦЕНТР ПОДДЕРЖКИ КЛИЕНТОВ ОАО “РЖД”:</h2>
+          <a href="tel:+78007750000" class="footer__number link">8 800 775 0000</a>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link link">
+              <img src="./images/icon__vk_gray.svg" alt="Иконка ВКонтакте" class="footer__social-icon">
+              <p class="footer__social-txt">ВКонтакте</p>
+            </a>
+            <span class="footer__line"></span>
+            <a href="#" class="footer__social-link link">
+              <img src="./images/icon__izi_gray.jpg" alt="Иконка izi" class="footer__social-icon">
+              <p class="footer__social-txt">Мобильный аудиогид</p>
+            </a>
+          </div>
+        </div>
+        <span class="footer__line"></span>
+        <div class="footer__block footer__block_type_contacts">
+          <h2 class="footer__title">КОНТАКТЫ КОМПАНИИ:</h2>
+          <ul class="footer__contacts-list list">
+            <li class="footer__contacts-list-item">+7 (812) 458-68-68</li>
+            <li class="footer__contacts-list-item">OfRas_SZPPK@orw.ru</li>
+            <li class="footer__contacts-list-item">190068, г. Санкт-Петербург Римского-Корсакова пр., д. 47, лит. А
+            </li>
+          </ul>
+        </div>
+        <span class="footer__line"></span>
+        <div class="footer__block footer__block_type_nav">
+          <nav class="footer__nav">
+            <ul class="footer__list list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link link">Пассажирам</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#" class="footer__bottom-link link">
+          <img src="./images/footer__logo.jpg" alt="Логотип РЖД" class="footer__bottom-img">
+        </a>
+        <p class="footer__bottom-txt">
+          © 2023 АО «Северо-Западная пригородная пассажирская компания» Лицензия на осуществление деятельности по
+          перевозкам железнодорожным транспортом пассажиров в пригородном сообщении ПП № 7807537 Все материалы сайта
+          принадлежат АО «Северо-Западная пригородная пассажирская компания». Использование материалов, опубликованных
+          на сайте, возможно только со ссылкой на сайт. Официальный сайт ОАО «РЖД» www.rzd.ru
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="./pages/pages.js"></script>
+</body>
+
+</html>

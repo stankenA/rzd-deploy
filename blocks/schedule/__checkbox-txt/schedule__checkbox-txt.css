@@ -1,0 +1,8 @@
+.schedule__checkbox-txt {
+  margin: 2px 0 0 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #394A58;
+  transition: all .4s ease;
+}

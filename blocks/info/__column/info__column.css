@@ -1,0 +1,6 @@
+.info__column {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+  height: 511px;
+}

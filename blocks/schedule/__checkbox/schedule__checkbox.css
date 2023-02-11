@@ -1,0 +1,11 @@
+.schedule__checkbox[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.schedule__checkbox[type="checkbox"]:checked~.schedule__checkmark::after {
+  display: block;
+}

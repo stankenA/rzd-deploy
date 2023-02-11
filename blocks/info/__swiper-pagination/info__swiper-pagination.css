@@ -1,0 +1,18 @@
+.info__swiper-pagination {
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 34px !important;
+  z-index: 2;
+}
+
+.info__swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  opacity: .5;
+}
+
+.info__swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}

@@ -1,0 +1,6 @@
+.nav__link_active {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #EE3523;
+}

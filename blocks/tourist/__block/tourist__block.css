@@ -1,0 +1,6 @@
+.tourist__block {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}

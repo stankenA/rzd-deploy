@@ -1,0 +1,6 @@
+.form__file-label {
+  width: var(--input-width);
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}

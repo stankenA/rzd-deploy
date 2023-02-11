@@ -1,0 +1,8 @@
+.tourist__swiper-slide {
+  width: 278px;
+  height: 100%;
+  background: #EE3523;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-bottom: 25px;
+}

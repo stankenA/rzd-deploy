@@ -1,0 +1,18 @@
+.header__search-btn {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  background-image: url(../../../images/icon__search.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 1px;
+  right: 1px;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.header__search-btn:hover {
+  opacity: .6;
+}
