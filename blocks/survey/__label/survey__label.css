@@ -20,6 +20,7 @@
   border: 1px solid #000000;
   background-color: #fff;
   left: -33px;
+  top: 0;
 }
 
 .survey__label::before {
