@@ -11,7 +11,7 @@
     position: fixed;
     top: 0;
     z-index: 4;
-    max-height: 103vh;
+    max-height: 100vh;
     overflow: scroll;
     width: 100%;
   }

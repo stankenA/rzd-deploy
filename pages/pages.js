@@ -56,6 +56,7 @@ const headerWrapper = document.querySelector('.header__wrapper');
 const headerMobileBtn = document.querySelector('.header__mobile-btn');
 const headerRightSide = document.querySelector('.header__right-side');
 const headerUpper = document.querySelector('.header__upper')
+const header = document.querySelector('.header')
 const page = document.querySelector('.page');
 
 headerMobileBtn.addEventListener('click', () => {
@@ -64,6 +65,7 @@ headerMobileBtn.addEventListener('click', () => {
   headerMobileBtn.classList.toggle('header__mobile-btn_opened');
   headerUpper.classList.toggle('header__upper_opened');
   page.classList.toggle('page_opened');
+  header.classList.toggle('header_opened');
 })
 
 //Form
