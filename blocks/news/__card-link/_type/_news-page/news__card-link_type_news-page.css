@@ -2,3 +2,13 @@
   border-radius: 10px;
   width: 234px;
 }
+
+@media screen and (max-width: 767px) {
+  .news__card-link_type_news-page {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

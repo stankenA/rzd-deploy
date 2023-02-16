@@ -10,3 +10,10 @@
     height: 217px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .news__card_type_news-page {
+    flex-direction: column;
+    height: 383px;
+  }
+}

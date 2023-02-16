@@ -39,33 +39,57 @@ const infoSwiper = new Swiper('.info__swiper', {
 
 //Main page clickable cells
 const privilegeCell = new Cell('.info__cell_type_privilege', () => {
-  privilegeCell.open();
-  workCell.close();
+  if (document.documentElement.clientWidth < 768) {
+    privilegeCell.toggle();
+  } else {
+    privilegeCell.open();
+    workCell.close();
+  }
 });
 
 const workCell = new Cell('.info__cell_type_work', () => {
-  privilegeCell.close();
-  workCell.open();
+  if (document.documentElement.clientWidth < 768) {
+    workCell.toggle();
+  } else {
+    privilegeCell.close();
+    workCell.open();
+  }
 });
 
 const schemeCell = new Cell('.info__cell_type_scheme', () => {
-  schemeCell.open();
-  economyCell.close();
+  if (document.documentElement.clientWidth < 768) {
+    schemeCell.toggle();
+  } else {
+    schemeCell.open();
+    economyCell.close();
+  }
 });
 
 const economyCell = new Cell('.info__cell_type_economy', () => {
-  schemeCell.close();
-  economyCell.open();
+  if (document.documentElement.clientWidth < 768) {
+    economyCell.toggle();
+  } else {
+    schemeCell.close();
+    economyCell.open();
+  }
 });
 
 const lowMobCell = new Cell('.info__cell_type_low-mob', () => {
-  lowMobCell.open();
-  direcotrCell.close();
+  if (document.documentElement.clientWidth < 768) {
+    lowMobCell.toggle();
+  } else {
+    lowMobCell.open();
+    direcotrCell.close();
+  }
 });
 
 const direcotrCell = new Cell('.info__cell_type_director', () => {
-  lowMobCell.close();
-  direcotrCell.open();
+  if (document.documentElement.clientWidth < 768) {
+    direcotrCell.toggle();
+  } else {
+    lowMobCell.close();
+    direcotrCell.open();
+  }
 });
 
 const cellsArray = [privilegeCell, schemeCell, lowMobCell, economyCell, workCell, direcotrCell];

@@ -3,3 +3,11 @@
   line-height: 20px;
   margin: 17px 0 59px;
 }
+
+@media screen and (max-width: 767px) {
+  .news__card-brief_type_news-page {
+    margin: 13px 0 0;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

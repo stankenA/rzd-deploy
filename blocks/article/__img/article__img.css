@@ -6,3 +6,10 @@
   height: 582px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  .article__img {
+    height: 196px;
+    margin-bottom: 30px;
+  }
+}

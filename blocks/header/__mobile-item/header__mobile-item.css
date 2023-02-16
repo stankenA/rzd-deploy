@@ -9,4 +9,15 @@
 
 .header__mobile-item:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__mobile-item {
+    width: 94%;
+  }
+
+  .header__mobile-item:first-child {
+    margin-top: 10px;
+  }
 }

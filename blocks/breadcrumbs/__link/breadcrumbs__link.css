@@ -5,4 +5,13 @@
   text-align: center;
   color: #000000;
   margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .breadcrumbs__link {
+    max-width: 215px;
+  }
 }

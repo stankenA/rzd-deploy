@@ -8,3 +8,12 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .news__card-content_type_news-page {
+    width: 90%;
+    margin: 8px auto 0;
+    height: 145px;
+    position: relative;
+  }
+}

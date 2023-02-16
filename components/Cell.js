@@ -18,6 +18,12 @@ export default class Cell {
     this._button.classList.add('info__cell-btn_rotate');
   }
 
+  toggle() {
+    this._cell.classList.toggle('info__cell_opened');
+    this._list.classList.toggle('info__list_opened');
+    this._button.classList.toggle('info__cell-btn_rotate');
+  }
+
   _checkClientWidth() {
     if (document.documentElement.clientWidth < 768) {
       this.close();
