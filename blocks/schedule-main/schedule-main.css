@@ -1,0 +1,22 @@
+.schedule-main {
+  background-color: #EE3523;
+  border-radius: 0 0 40px 40px;
+  padding-bottom: 52px;
+}
+
+.schedule-main .schedule {
+  width: 1172px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .schedule-main .schedule {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .schedule-main {
+    padding-top: 30px;
+  }
+}

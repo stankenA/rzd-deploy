@@ -1,3 +1,9 @@
 .info__cell_type_director {
   background-color: #EE3523;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__cell_type_director {
+    padding-top: 10px;
+  }
+}

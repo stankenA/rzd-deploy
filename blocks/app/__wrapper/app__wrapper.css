@@ -3,3 +3,19 @@
   padding-left: 69px;
   padding-top: 41px;
 }
+
+@media screen and (max-width: 1439px) {
+  .app__wrapper {
+    width: 86%;
+    padding-top: 23px;
+    padding-left: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app__wrapper {
+    padding: 19px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

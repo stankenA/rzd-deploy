@@ -5,4 +5,12 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  position: absolute;
+  bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .tourist__swiper-link {
+    width: 90%;
+  }
 }

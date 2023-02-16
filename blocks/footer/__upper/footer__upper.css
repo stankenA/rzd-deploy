@@ -4,3 +4,17 @@
   justify-content: space-between;
   width: 100%;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__upper {
+    height: 178px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__upper {
+    height: unset;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

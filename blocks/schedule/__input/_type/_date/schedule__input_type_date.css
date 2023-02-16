@@ -1,9 +1,19 @@
 .schedule__input_type_date {
   width: 201px;
   margin: 0 35px 0 22px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   color: #687988;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .schedule__input_type_date {
+    width: 189px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .schedule__input_type_date {
+    width: 100%;
+    margin: 8px 0;
+  }
 }

@@ -4,3 +4,9 @@
   line-height: 14px;
   color: #687988;
 }
+
+@media screen and (max-width: 767px) {
+  .news__card-date {
+    align-self: flex-start;
+  }
+}

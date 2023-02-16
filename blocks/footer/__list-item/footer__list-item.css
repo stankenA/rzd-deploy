@@ -1,3 +1,15 @@
 .footer__list-item {
   margin-bottom: 11px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__list-item {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__list-item {
+    margin-right: 30px;
+  }
+}

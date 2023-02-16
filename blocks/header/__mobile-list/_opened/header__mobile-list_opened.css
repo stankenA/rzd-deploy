@@ -1,0 +1,6 @@
+@media screen and (max-width: 1023px) {
+  .header__mobile-list_opened {
+    visibility: visible;
+    opacity: 1;
+  }
+}

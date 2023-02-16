@@ -5,3 +5,9 @@
   line-height: 20px;
   color: #7F7F7F;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__special-vision-txt {
+    color: #fff;
+  }
+}

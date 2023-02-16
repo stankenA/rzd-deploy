@@ -4,3 +4,14 @@
   display: block;
   border-left: 2px solid #7F7F7F;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__line {
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid #7F7F7F;
+    border-left: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

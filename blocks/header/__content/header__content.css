@@ -1,4 +1,11 @@
 .header__content {
   width: 1172px;
   margin: 0 auto;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__content {
+    width: 92%;
+  }
 }

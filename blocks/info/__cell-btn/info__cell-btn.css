@@ -8,3 +8,9 @@
   background: url(../../../images/icon__up.svg) no-repeat center;
   transition: all .4s ease;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__cell-btn {
+    bottom: 3px;
+  }
+}

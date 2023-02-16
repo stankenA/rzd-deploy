@@ -7,3 +7,28 @@
   padding-bottom: 4px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__link {
+    width: 113px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__link {
+    pointer-events: none;
+    width: 100%;
+    font-size: 23px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,6 @@
+.header__wrapper_opened {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-1px);
+  margin-top: 0;
+}

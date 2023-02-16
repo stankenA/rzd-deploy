@@ -1,9 +1,26 @@
 .news__card-link {
-  width: 100%;
+  width: 129px;
   height: 38px;
   border-radius: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;
+  position: absolute;
+  bottom: 18px;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card-link {
+    width: 80%;
+    bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-link {
+    border-radius: 10px;
+    bottom: 14px;
+    width: 70%;
+  }
 }

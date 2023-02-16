@@ -5,3 +5,23 @@
   font-size: 20px;
   line-height: 24px;
 }
+
+@media screen and (max-width: 1439px) {
+  .schedule__input {
+    width: 178px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .schedule__input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .schedule__input {
+    height: 43px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

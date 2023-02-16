@@ -5,3 +5,10 @@
   color: #000000;
   margin: 30px 0 24px;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card-brief {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}

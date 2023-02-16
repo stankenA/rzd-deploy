@@ -1,15 +1,24 @@
 .news__link {
   width: 100%;
-  height: 53px;
+  min-height: 53px;
   background: #FFFFFF;
   border-radius: 10px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding-left: 21px;
+  padding: 5px 0 5px 21px;
 }
 
 .news__link:hover {
   opacity: 1;
   box-shadow: 10px 8px 11px -1px rgba(34, 60, 80, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .news__link {
+    min-height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px 16px 8px 10px;
+  }
 }

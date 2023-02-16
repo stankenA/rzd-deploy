@@ -1,4 +1,10 @@
 .header__wrapper_main-page {
-  padding-bottom: 52px;
-  border-radius: 40px;
+  border-radius: 40px 40px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper_main-page {
+    border-radius: 0 0 40px 40px;
+    padding-bottom: 15px;
+  }
 }

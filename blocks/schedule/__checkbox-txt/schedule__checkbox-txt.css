@@ -6,3 +6,10 @@
   color: #394A58;
   transition: all .4s ease;
 }
+
+@media screen and (max-width: 767px) {
+  .schedule__checkbox-txt {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

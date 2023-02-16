@@ -19,7 +19,7 @@ export default class Cell {
   }
 
   _checkClientWidth() {
-    if (document.documentElement.clientWidth < 768) {
+    if (document.documentElement.clientWidth < 1024) {
       this.close();
     }
   }

@@ -1,0 +1,16 @@
+.header__link-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__link-btn {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../../../images/icon__bottom-arrow_black.svg) no-repeat center;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    transition: all .4s ease;
+  }
+}

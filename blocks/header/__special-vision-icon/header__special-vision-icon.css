@@ -4,3 +4,9 @@
   height: 33px;
   display: block;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__special-vision-icon {
+    background: url(../../../images/icon__eye_white.svg) no-repeat center / cover;
+  }
+}

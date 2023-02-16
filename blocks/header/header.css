@@ -1,4 +1,22 @@
 .header {
   max-width: var(--wrapper-width);
-  margin: 39px auto 40px;
+  margin: 39px auto 0;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    max-height: 103vh;
+    overflow: scroll;
+    width: 100%;
+  }
+
+  .header::-webkit-scrollbar {
+    display: none;
+  }
 }

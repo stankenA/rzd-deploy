@@ -1,3 +1,21 @@
 .info__cell_opened {
   height: 357px;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__cell_opened {
+    height: 432px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .info__cell_opened {
+    height: 271px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info__cell_opened {
+    height: 271px;
+  }
+}

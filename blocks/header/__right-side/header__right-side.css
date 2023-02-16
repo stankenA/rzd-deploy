@@ -4,3 +4,11 @@
   height: 35px;
   margin-right: 32px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__right-side {
+    margin-right: 0;
+    margin-bottom: 25px;
+    display: none;
+  }
+}

@@ -1,3 +1,18 @@
 .footer__block_type_contacts {
   width: 243px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__block_type_contacts {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__block_type_contacts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

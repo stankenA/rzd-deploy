@@ -1,0 +1,12 @@
+.header__mobile-item {
+  padding: 0 10px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #394A58;
+  margin-bottom: 20px;
+  width: 75%;
+  text-align: center;
+}
+
+.header__mobile-item:last-child {
+  border-bottom: none;
+}

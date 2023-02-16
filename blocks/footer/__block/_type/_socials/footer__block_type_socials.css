@@ -1,3 +1,9 @@
 .footer__block_type_socials {
   width: 327px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__block_type_socials {
+    width: 100%;
+  }
+}

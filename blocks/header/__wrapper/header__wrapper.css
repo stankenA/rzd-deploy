@@ -3,3 +3,16 @@
   border-radius: 20px;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper {
+    border-radius: 0 0 20px 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s ease;
+    transform: translateY(-100%);
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {}

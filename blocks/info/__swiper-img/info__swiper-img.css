@@ -6,3 +6,9 @@
   z-index: -1;
   border-radius: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  .info__swiper-img {
+    border-radius: 20px;
+  }
+}

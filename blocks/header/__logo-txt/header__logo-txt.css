@@ -6,3 +6,18 @@
   max-width: 246px;
   margin: 0 0 12px 20px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__logo-txt {
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo-txt {
+    font-size: 12px;
+    line-height: 82%;
+    max-width: 42%;
+    margin-bottom: 4px;
+  }
+}

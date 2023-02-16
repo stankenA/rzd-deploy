@@ -1,0 +1,8 @@
+@media screen and (max-width: 1023px) {
+  .footer__line_social {
+    border-left: 2px solid #7F7F7F;
+    border-bottom: none;
+    width: 1px;
+    height: 100%;
+  }
+}

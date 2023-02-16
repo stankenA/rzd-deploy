@@ -2,3 +2,9 @@
   left: 20px;
   background: url(../../../../images/icon__prev.svg) no-repeat center;
 }
+
+@media screen and (max-width: 1023px) {
+  .info__swiper-button_prev {
+    left: 0;
+  }
+}

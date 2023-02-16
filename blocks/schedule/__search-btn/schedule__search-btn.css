@@ -6,3 +6,22 @@
   line-height: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .schedule__search-btn {
+    width: 178px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .schedule__search-btn {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .schedule__search-btn {
+    height: 43px;
+  }
+}

@@ -3,3 +3,9 @@
   border-radius: 20px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  .news {
+    margin-bottom: 20px;
+  }
+}

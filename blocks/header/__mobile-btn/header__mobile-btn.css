@@ -1,0 +1,14 @@
+.header__mobile-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__mobile-btn {
+    display: block;
+    width: 26px;
+    height: 24px;
+    background: url(../../../images/icon__hamburger.svg) no-repeat center;
+    margin-left: auto;
+    transition: all .4s ease;
+  }
+}

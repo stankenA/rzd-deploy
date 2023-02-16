@@ -4,3 +4,10 @@
   flex-direction: column;
   margin-left: 10%;
 }
+
+@media screen and (max-width: 1439px) {
+  .info__list_type_director {
+    margin-left: 0;
+    width: 88%;
+  }
+}

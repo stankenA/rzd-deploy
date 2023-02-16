@@ -58,21 +58,37 @@
 
 /* Upper header */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_opened/header_opened.css);
 @import url(../blocks/header/_sticky/header_sticky.css);
 @import url(../blocks/header/__upper/header__upper.css);
+@import url(../blocks/header/__upper/_opened/header__upper_opened.css);
 @import url(../blocks/header/__logo-container/header__logo-container.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_red/header__logo_red.css);
+@import url(../blocks/header/__logo/_white/header__logo_white.css);
 @import url(../blocks/header/__logo-txt/header__logo-txt.css);
 @import url(../blocks/header/__right-side/header__right-side.css);
+@import url(../blocks/header/__right-side/_opened/header__right-side_opened.css);
+@import url(../blocks/header/__right-side/_mobile/header__right-side_mobile.css);
 @import url(../blocks/header/__special-vision-link/header__special-vision-link.css);
 @import url(../blocks/header/__special-vision-txt/header__special-vision-txt.css);
 @import url(../blocks/header/__special-vision-icon/header__special-vision-icon.css);
 @import url(../blocks/header/__line/header__line.css);
 @import url(../blocks/header/__profile-icon/header__profile-icon.css);
+@import url(../blocks/header/__link-btn/header__link-btn.css);
+@import url(../blocks/header/__link-btn/_opened/header__link-btn_opened.css);
+
+@import url(../blocks/header/__mobile-btn/header__mobile-btn.css);
+@import url(../blocks/header/__mobile-btn/_opened/header__mobile-btn_opened.css);
+@import url(../blocks/header/__mobile-list/header__mobile-list.css);
+@import url(../blocks/header/__mobile-list/_opened/header__mobile-list_opened.css);
+@import url(../blocks/header/__mobile-item/header__mobile-item.css);
+@import url(../blocks/header/__mobile-link/header__mobile-link.css);
 
 /* Header nav */
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__wrapper/_main-page/header__wrapper_main-page.css);
+@import url(../blocks/header/__wrapper/_opened/header__wrapper_opened.css);
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -95,7 +111,7 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__link/_active/nav__link_active.css);
 
-/* Side bard schedule */
+/* Side bar and schedule */
 
 @import url(../blocks/schedule/schedule.css);
 @import url(../blocks/schedule/__title/schedule__title.css);
@@ -104,6 +120,7 @@
 @import url(../blocks/schedule/__fieldset/schedule__fieldset.css);
 @import url(../blocks/schedule/__fieldset/_sidebar/schedule__fieldset_sidebar.css);
 @import url(../blocks/schedule/__input/schedule__input.css);
+@import url(../blocks/schedule/__input/_type/_date/schedule__input_type_date.css);
 @import url(../blocks/schedule/__input/_sidebar/schedule__input_sidebar.css);
 @import url(../blocks/schedule/__swap-btn/schedule__swap-btn.css);
 @import url(../blocks/schedule/__search/_sidebar/schedule__search_sidebar.css);
@@ -114,6 +131,9 @@
 @import url(../blocks/schedule/__checkbox-label/schedule__checkbox-label.css);
 @import url(../blocks/schedule/__checkbox/schedule__checkbox.css);
 @import url(../blocks/schedule/__checkmark/schedule__checkmark.css);
+@import url(../blocks/schedule/__form/schedule__form.css);
+@import url(../blocks/schedule/__search/schedule__search.css);
+@import url(../blocks/schedule/_hide/schedule_hide.css);
 
 /* Breadcrumbs */
 
@@ -254,3 +274,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);
 @import url(../blocks/footer/__bottom-txt/footer__bottom-txt.css);
+@import url(../blocks/footer/__bottom-img/footer__bottom-img.css);

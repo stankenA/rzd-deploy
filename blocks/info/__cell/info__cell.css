@@ -7,6 +7,8 @@
   padding: 30px 0 0 22px;
   position: relative;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
 
 .info__cell:first-child {
@@ -15,4 +17,21 @@
 
 .info__cell:hover .info__cell-btn {
   opacity: .7;
+}
+
+@media screen and (max-width: 1023px) {
+  .info__cell {
+    height: 89px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info__cell {
+    margin-bottom: 10px;
+    height: 110px;
+  }
+
+  .info__cell:first-child {
+    margin-bottom: 10px;
+  }
 }

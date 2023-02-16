@@ -1,0 +1,3 @@
+.header__link-btn_opened {
+  transform: rotate(180deg);
+}

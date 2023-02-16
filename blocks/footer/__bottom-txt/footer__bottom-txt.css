@@ -6,3 +6,15 @@
   line-height: 17px;
   color: #7F7F7F;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__bottom-txt {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__bottom-txt {
+    margin-left: 0;
+  }
+}

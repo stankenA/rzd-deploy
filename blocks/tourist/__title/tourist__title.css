@@ -6,3 +6,11 @@
   color: #EE3523;
   margin: 0 0 35px;
 }
+
+@media screen and (max-width: 767px) {
+  .tourist__title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 11px;
+  }
+}

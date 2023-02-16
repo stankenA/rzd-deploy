@@ -5,3 +5,9 @@
   opacity: 0;
   transition: .4s ease;
 }
+
+@media screen and (max-width: 1023px) {
+  .info__list {
+    bottom: 10px;
+  }
+}

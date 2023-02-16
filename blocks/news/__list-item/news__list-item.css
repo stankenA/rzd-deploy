@@ -2,3 +2,9 @@
   margin-bottom: 8px;
   width: 1137px;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__list-item {
+    width: 99%;
+  }
+}

@@ -3,3 +3,9 @@
   width: 103px;
   margin-bottom: 33px;
 }
+
+@media screen and (max-width: 767px) {
+  .info__list-img {
+    width: 60px;
+  }
+}

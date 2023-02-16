@@ -5,3 +5,15 @@
   margin: 0 auto;
   position: relative;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__wrapper {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__wrapper {
+    padding-top: 15px;
+  }
+}

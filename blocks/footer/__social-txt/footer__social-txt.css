@@ -6,3 +6,9 @@
   color: #7F7F7F;
   margin: 0 0 0 6px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__social-txt {
+    max-width: 120px;
+  }
+}

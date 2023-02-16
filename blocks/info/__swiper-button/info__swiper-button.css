@@ -12,3 +12,10 @@
 .info__swiper-button:hover {
   opacity: .6;
 }
+
+@media screen and (max-width: 767px) {
+  .info__swiper-button {
+    transform: scale(.7);
+    width: 28px;
+  }
+}

@@ -1,3 +1,15 @@
 .footer__contacts-list {
   margin-top: 5px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__contacts-list {
+    margin-left: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts-list {
+    margin-left: 0;
+  }
+}

@@ -4,3 +4,9 @@
   width: 33px;
   height: 33px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__profile-icon {
+    background: url(../../../images/icon__profile_white.svg) no-repeat center / cover;
+  }
+}

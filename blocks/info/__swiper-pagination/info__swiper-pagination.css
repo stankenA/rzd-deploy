@@ -16,3 +16,14 @@
 .info__swiper-pagination .swiper-pagination-bullet-active {
   opacity: 1;
 }
+
+@media screen and (max-width: 1023px) {
+  .info__swiper-pagination {
+    bottom: 25px !important;
+  }
+
+  .info__swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}

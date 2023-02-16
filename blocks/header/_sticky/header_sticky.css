@@ -3,5 +3,14 @@
   top: -105px;
   z-index: 2;
   background: #F5F5F5;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header_sticky {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background: transparent;
+  }
 }

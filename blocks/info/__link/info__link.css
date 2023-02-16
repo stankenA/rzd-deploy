@@ -10,3 +10,10 @@
   color: #EE3523;
   opacity: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .info__link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
