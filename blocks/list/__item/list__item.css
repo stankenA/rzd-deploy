@@ -5,3 +5,10 @@
   color: #000000;
   margin: 0 0 5px;
 }
+
+@media screen and (max-width: 767px) {
+  .list__item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

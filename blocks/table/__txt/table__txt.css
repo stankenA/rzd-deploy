@@ -5,3 +5,10 @@
   color: #000000;
   margin: 0 0 2px;
 }
+
+@media screen and (max-width: 767px) {
+  .table__txt {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

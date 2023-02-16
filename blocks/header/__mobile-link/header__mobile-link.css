@@ -6,3 +6,9 @@
   color: #394A58;
   padding: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__mobile-link {
+    font-size: 16px;
+  }
+}

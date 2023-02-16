@@ -12,3 +12,9 @@
   outline: none;
   border: 2px solid #434f58;
 }
+
+@media screen and (max-width: 767px) {
+  .input {
+    padding-left: 12px;
+  }
+}

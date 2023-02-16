@@ -2,3 +2,11 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card_type_news-page {
+    flex-direction: row;
+    width: 100%;
+    height: 217px;
+  }
+}

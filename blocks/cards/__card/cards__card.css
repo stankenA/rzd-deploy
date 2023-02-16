@@ -8,3 +8,16 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .cards__card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__card {
+    width: 100%;
+    height: calc(100vw * 1.51);
+  }
+}

@@ -1,3 +1,9 @@
 .tariff__container {
   margin-bottom: 49px;
 }
+
+@media screen and (max-width: 1023px) {
+  .tariff__container {
+    margin-bottom: 20px;
+  }
+}

@@ -8,3 +8,14 @@
 .table__title_heading:first-child {
   flex-basis: 192px;
 }
+
+@media screen and (max-width: 767px) {
+  .table__title_heading {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .table__title_heading:first-child {
+    flex-basis: 110px;
+  }
+}

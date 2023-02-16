@@ -6,17 +6,20 @@
   position: relative;
   --wrapper-width: 1320px;
   --content-width: 874px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (max-width: 1439px) {
   .page {
     --wrapper-width: 970px;
+    --content-width: 72%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .page {
     --wrapper-width: 700px;
+    --content-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

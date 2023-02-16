@@ -4,3 +4,13 @@
   margin-top: 35px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1023px) {
+  .survey {
+    width: 100%;
+  }
+
+  .survey .title {
+    text-align: left;
+  }
+}

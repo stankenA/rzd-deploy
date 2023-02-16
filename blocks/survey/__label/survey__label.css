@@ -34,3 +34,10 @@
   visibility: hidden;
   transition: all .4s ease;
 }
+
+@media screen and (max-width: 767px) {
+  .survey__label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

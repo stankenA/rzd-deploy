@@ -4,3 +4,9 @@
   border: none;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 767px) {
+  .contacts__map {
+    height: 421px;
+  }
+}

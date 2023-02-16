@@ -28,3 +28,10 @@
   display: block;
   transition: all .4s ease;
 }
+
+@media screen and (max-width: 767px) {
+  .ref__link {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

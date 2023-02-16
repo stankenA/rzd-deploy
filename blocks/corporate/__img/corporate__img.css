@@ -9,3 +9,9 @@
 .corporate__img:nth-child(3) {
   grid-column: span 2;
 }
+
+@media screen and (max-width: 767px) {
+  .corporate__img:nth-child(3) {
+    grid-column: unset;
+  }
+}

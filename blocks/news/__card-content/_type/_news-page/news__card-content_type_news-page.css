@@ -2,3 +2,9 @@
   width: 51%;
   margin-left: 8%;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card-content_type_news-page {
+    align-items: flex-start;
+  }
+}

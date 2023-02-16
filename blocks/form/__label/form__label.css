@@ -6,3 +6,18 @@
   margin-top: 9px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1439px) {
+  .form__label {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__label {
+    margin-bottom: 5px;
+    font-size: 16;
+    line-height: 19px;
+  }
+}

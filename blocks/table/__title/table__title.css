@@ -6,3 +6,10 @@
   margin: 0 8px 0 0;
   display: block;
 }
+
+@media screen and (max-width: 767px) {
+  .table__title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

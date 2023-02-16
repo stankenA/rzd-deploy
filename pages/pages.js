@@ -18,20 +18,6 @@ swapBtn.addEventListener('click', () => {
   swapInputValues(toInput, fromInput);
 })
 
-//Survey
-
-const survey = new Survey({
-  surveySelector: '.survey',
-  handleSurvey: () => {
-    setTimeout(() => {
-      survey.showResults();
-      survey.hideBtns();
-    }, 300)
-  }
-});
-
-survey.setEventListeners();
-
 // Mobile menu
 
 const headerItems = document.querySelectorAll('.header__list-item');
@@ -67,6 +53,20 @@ headerMobileBtn.addEventListener('click', () => {
   page.classList.toggle('page_opened');
   header.classList.toggle('header_opened');
 })
+
+//Survey
+
+const survey = new Survey({
+  surveySelector: '.survey',
+  handleSurvey: () => {
+    setTimeout(() => {
+      survey.showResults();
+      survey.hideBtns();
+    }, 300)
+  }
+});
+
+survey.setEventListeners();
 
 //Form
 

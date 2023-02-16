@@ -3,3 +3,9 @@
   padding-left: 30px;
   margin-bottom: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .list_marked {
+    padding-left: 22px;
+  }
+}

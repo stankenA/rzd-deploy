@@ -2,5 +2,12 @@
   margin: 35px 0 40px;
   background: #FFFFFF;
   border-radius: 20px;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.25);
   --input-width: 460px;
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    --input-width: 100%;
+  }
 }

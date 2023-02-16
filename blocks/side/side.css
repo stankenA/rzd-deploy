@@ -2,3 +2,15 @@
   width: 278px;
   margin-bottom: 85px;
 }
+
+@media screen and (max-width: 1439px) {
+  .side {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .side {
+    display: none;
+  }
+}

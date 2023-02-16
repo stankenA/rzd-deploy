@@ -6,3 +6,10 @@
   line-height: 19px;
   color: black;
 }
+
+@media screen and (max-width: 767px) {
+  .form__input {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

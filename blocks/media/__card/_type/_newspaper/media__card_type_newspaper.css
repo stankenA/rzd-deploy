@@ -2,3 +2,16 @@
   width: 278px;
   height: 486px;
 }
+
+@media screen and (max-width: 1439px) {
+  .media__card_type_newspaper {
+    width: 30%;
+    height: 432px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .media__card_type_newspaper {
+    width: 100%;
+  }
+}

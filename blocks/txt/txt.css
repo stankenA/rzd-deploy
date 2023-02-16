@@ -5,3 +5,10 @@
   color: #000000;
   margin: 0 0 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .txt {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

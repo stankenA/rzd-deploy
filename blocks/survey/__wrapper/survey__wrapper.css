@@ -3,3 +3,15 @@
   width: 94%;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+  .survey__wrapper {
+    padding: 25px 0 30px 43px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .survey__wrapper {
+    padding-left: 22px;
+  }
+}

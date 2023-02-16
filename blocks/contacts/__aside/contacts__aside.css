@@ -2,3 +2,17 @@
   width: 62%;
   margin-top: 88px;
 }
+
+@media screen and (max-width: 1439px) {
+  .contacts__aside {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contacts__aside {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

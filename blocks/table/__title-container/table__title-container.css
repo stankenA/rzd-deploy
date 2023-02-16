@@ -3,3 +3,11 @@
   margin-right: 10px;
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .table__title-container {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

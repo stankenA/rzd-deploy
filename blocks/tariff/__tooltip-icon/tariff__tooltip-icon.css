@@ -5,3 +5,9 @@
   background: url(../../../images/icon__tooltip.svg) no-repeat center;
   position: relative;
 }
+
+@media screen and (max-width: 767px) {
+  .tariff__tooltip-icon {
+    margin-right: 5px;
+  }
+}

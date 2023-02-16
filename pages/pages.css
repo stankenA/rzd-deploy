@@ -103,6 +103,7 @@
 /* Content/wrapper */
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/wrapper/_flex/wrapper_flex.css);
+@import url(../blocks/wrapper/_contacts/wrapper_contacts.css);
 @import url(../blocks/content/content.css);
 
 /* Side bar */
@@ -259,6 +260,7 @@
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__upper/footer__upper.css);
 @import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__line/_social/footer__line_social.css);
 @import url(../blocks/footer/__block/footer__block.css);
 @import url(../blocks/footer/__block/_type/_socials/footer__block_type_socials.css);
 @import url(../blocks/footer/__block/_type/_contacts/footer__blocks_type_contacts.css);

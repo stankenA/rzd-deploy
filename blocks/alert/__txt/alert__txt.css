@@ -9,3 +9,11 @@
 .alert__txt:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .alert__txt {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+}

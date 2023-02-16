@@ -13,11 +13,14 @@
   <header class="header header_sticky">
     <div class="header__upper">
       <div class="header__logo-container">
-        <a href="./index.html" class="header__logo-link link"><img src="./images/rzd__logo.svg" alt="Логотип РЖД"
-            class="header__logo"></a>
+        <a href="./index.html" class="header__logo-link link">
+          <img src="./images/rzd__logo.svg" alt="Логотип РЖД" class="header__logo header__logo_red">
+          <img src="./images/rzd__logo_white.svg" alt="Логотип РЖД" class="header__logo header__logo_white">
+        </a>
         <p class="header__logo-txt">
           Северо-Западная пригородная пассажирская компания
         </p>
+        <span class="header__mobile-btn"></span>
       </div>
       <div class="header__right-side">
         <a href="#" class="header__special-vision-link link">
@@ -34,24 +37,183 @@
     </div>
     <div class="header__wrapper">
       <div class="header__content">
+        <div class="header__right-side header__right-side_mobile">
+          <a href="#" class="header__special-vision-link link">
+            <p class="header__special-vision-txt">
+              Версия для слабовидящих
+            </p>
+            <span class="header__special-vision-icon"></span>
+          </a>
+          <span class="header__line"></span>
+          <a href="#" class="header__profile-link link">
+            <span class="header__profile-icon"></span>
+          </a>
+        </div>
         <nav class="header__nav">
           <ul class="header__list list">
-            <li class="header__list-item"><a href="./tariffs.html"
-                class="header__link button button_white">пассажирам</a></li>
-            <li class="header__list-item"><a href="./activities.html" class="header__link button button_white">о
-                компании</a></li>
-            <li class="header__list-item"><a href="#" class="header__link button button_white">вопрос/ответ</a></li>
-            <li class="header__list-item"><a href="./press.html"
-                class="header__link button button_white">пресс-центр</a></li>
-            <li class="header__list-item"><a href="./contacts.html"
-                class="header__link button button_white">контакты</a></li>
+            <li class="header__list-item">
+              <a href="./tariffs.html" class="header__link button button_white">пассажирам</a>
+              <span class="header__link-btn"></span>
+              <ul class="header__mobile-list list">
+                <li class="header__mobile-item">
+                  <a href="./tariffs.html" class="header__mobile-link link">Установленные тарифы</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./ticket.html" class="header__mobile-link link">Проездные документы</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Льготы</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Покупка билета через терминал</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Мобильное приложение</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">ЕЭБ “Подорожник”</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Единая Карта Петербуржца (ЕКП)</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Категории поездов</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Билетные кассы, терминалы и турникеты</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Способы оплаты проезда</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Правила проезда</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Схемы маршрутов</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Перевозка организованных групп детей</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Туристу на заметку</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Ремонт объектов пассажирской инфраструктуры</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Ремонт объектов пассажирской инфраструктуры</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Вопрос - ответ</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Информация для маломобильных пассажиров</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Станции входящие в пограничную зону</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Проезд на метеорах</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__list-item">
+              <a href="./activities.html" class="header__link button button_white">о компании</a>
+              <span class="header__link-btn"></span>
+              <ul class="header__mobile-list list">
+                <li class="header__mobile-item">
+                  <a href="./activities.html" class="header__mobile-link link">Деятельность</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Органы управления</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./head.html" class="header__mobile-link link">Руководство</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./tariffs.html" class="header__mobile-link link">Доска почета</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./vacancies.html" class="header__mobile-link link">Вакансии</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Раскрытие информации</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Страхование гражданской ответственности перевозчика</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__list-item">
+              <a href="./corporate-transportation.html" class="header__link button button_white">вопрос/ответ</a>
+              <span class="header__link-btn"></span>
+              <ul class="header__mobile-list list">
+                <li class="header__mobile-item">
+                  <a href="./tariffs.html" class="header__mobile-link link">Установленные тарифы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__list-item">
+              <a href="./press.html" class="header__link button button_white">пресс-центр</a>
+              <span class="header__link-btn"></span>
+              <ul class="header__mobile-list list">
+                <li class="header__mobile-item">
+                  <a href="./press.html" class="header__mobile-link link">Пресс-центр</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./news.html" class="header__mobile-link link">Новости компании</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./photos.html" class="header__mobile-link link">Фотогалерея</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./video.html" class="header__mobile-link link">Видеоматериалы</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="./newspaper.html" class="header__mobile-link link">Газета “Уважаемые пассажиры”</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link link">Список опросов</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__list-item">
+              <a href="./contacts.html" class="header__link button button_white">контакты</a>
+              <span class="header__link-btn"></span>
+              <ul class="header__mobile-list list">
+                <li class="header__mobile-item">
+                  <a href="./contacts.html" class="header__mobile-link link">Контакты</a>
+                </li>
+              </ul>
+            </li>
           </ul>
           <form name="search-form" class="header__form">
             <input type="search" class="header__input input" id="search" name="headerSearch" autocomplete="off">
             <button type="button" class="header__search-btn button"></button>
           </form>
         </nav>
-        <div class="header__main-mobile">
+        <div class="schedule schedule_hide">
+          <h2 class="schedule__title">Расписание движения и стоимости проезда</h2>
+          <form name="search-form" class="schedule__form">
+            <fieldset class="schedule__fieldset fieldset">
+              <input type="text" class="schedule__input input" id="from" name="from" autocomplete="off"
+                placeholder="откуда">
+              <button type="button" class="schedule__swap-btn button"></button>
+              <input type="text" class="schedule__input input" id="to" name="to" autocomplete="off" placeholder="куда">
+              <input type="date" class="schedule__input schedule__input_type_date input" id="when" name="when"
+                autocomplete="off">
+              <div class="schedule__search">
+                <button class="schedule__search-btn button button_black">найти</button>
+                <div class="schedule__checkbox-container">
+                  <label for="remember" class="schedule__checkbox-label">
+                    <input type="checkbox" id="remember" name="remember" class="schedule__checkbox input">
+                    <span class="schedule__checkmark"></span>
+                    <p class="schedule__checkbox-txt">Запомнить мой выбор</p>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </div>
     </div>
@@ -237,7 +399,7 @@
               <img src="./images/icon__vk_gray.svg" alt="Иконка ВКонтакте" class="footer__social-icon">
               <p class="footer__social-txt">ВКонтакте</p>
             </a>
-            <span class="footer__line"></span>
+            <span class="footer__line footer__line_social"></span>
             <a href="#" class="footer__social-link link">
               <img src="./images/icon__izi_gray.jpg" alt="Иконка izi" class="footer__social-icon">
               <p class="footer__social-txt">Мобильный аудиогид</p>
@@ -250,8 +412,7 @@
           <ul class="footer__contacts-list list">
             <li class="footer__contacts-list-item">+7 (812) 458-68-68</li>
             <li class="footer__contacts-list-item">OfRas_SZPPK@orw.ru</li>
-            <li class="footer__contacts-list-item">190068, г. Санкт-Петербург Римского-Корсакова пр., д. 47, лит. А
-            </li>
+            <li class="footer__contacts-list-item">190068, г. Санкт-Петербург Римского-Корсакова пр., д. 47, лит. А</li>
           </ul>
         </div>
         <span class="footer__line"></span>

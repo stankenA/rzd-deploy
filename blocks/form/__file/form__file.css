@@ -6,3 +6,11 @@
   color: rgba(0, 0, 0, 0.39);
   width: 70%;
 }
+
+@media screen and (max-width: 767px) {
+  .form__file {
+    width: 64%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

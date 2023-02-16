@@ -27,3 +27,12 @@
   border: 2px solid #394A58;
   box-shadow: none;
 }
+
+@media screen and (max-width: 767px) {
+  .button_back {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 43px;
+  }
+}

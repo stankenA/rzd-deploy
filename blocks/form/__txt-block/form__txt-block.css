@@ -4,3 +4,9 @@
   width: 460px;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+  .form__txt-block {
+    width: 100%;
+  }
+}

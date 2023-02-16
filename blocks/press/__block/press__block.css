@@ -5,3 +5,11 @@
   flex-direction: column;
   max-width: 365px;
 }
+
+@media screen and (max-width: 767px) {
+  .press__block {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 83%;
+  }
+}

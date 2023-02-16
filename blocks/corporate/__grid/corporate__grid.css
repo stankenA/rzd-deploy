@@ -6,3 +6,11 @@
   gap: 20px;
   margin-bottom: 28px;
 }
+
+@media screen and (max-width: 767px) {
+  .corporate__grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 197px 197px;
+    grid-auto-rows: 103px;
+  }
+}
