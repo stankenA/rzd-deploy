@@ -2,4 +2,6 @@
   margin-top: 14px;
   margin-bottom: 14px;
   max-width: 65%;
+  overflow: hidden;
+  transition: all .6s ease;
 }

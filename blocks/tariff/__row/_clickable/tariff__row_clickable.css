@@ -2,3 +2,7 @@
   min-height: 85px;
   cursor: pointer;
 }
+
+.tariff__row_clickable .table__txt-container {
+  height: 5px;
+}

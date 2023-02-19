@@ -1,6 +1,7 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js';
-import Cell from '../components/Cell.js';
+import InfoCell from '../components/InfoCell.js';
 import { swapInputValues } from '../utils/utils.js';
+import MobileMenu from '../components/MobileMenu.js';
 import {
   toInput,
   fromInput,
@@ -8,7 +9,6 @@ import {
 } from '../utils/constants.js'
 
 // Swap input values
-
 swapBtn.addEventListener('click', () => {
   swapInputValues(toInput, fromInput);
 })
@@ -38,8 +38,8 @@ const infoSwiper = new Swiper('.info__swiper', {
 
 
 //Main page clickable cells
-const privilegeCell = new Cell('.info__cell_type_privilege', () => {
-  if (document.documentElement.clientWidth < 768) {
+const privilegeCell = new InfoCell('.info__cell_type_privilege', () => {
+  if (document.documentElement.clientWidth <= 768) {
     privilegeCell.toggle();
   } else {
     privilegeCell.open();
@@ -47,8 +47,8 @@ const privilegeCell = new Cell('.info__cell_type_privilege', () => {
   }
 });
 
-const workCell = new Cell('.info__cell_type_work', () => {
-  if (document.documentElement.clientWidth < 768) {
+const workCell = new InfoCell('.info__cell_type_work', () => {
+  if (document.documentElement.clientWidth <= 768) {
     workCell.toggle();
   } else {
     privilegeCell.close();
@@ -56,8 +56,8 @@ const workCell = new Cell('.info__cell_type_work', () => {
   }
 });
 
-const schemeCell = new Cell('.info__cell_type_scheme', () => {
-  if (document.documentElement.clientWidth < 768) {
+const schemeCell = new InfoCell('.info__cell_type_scheme', () => {
+  if (document.documentElement.clientWidth <= 768) {
     schemeCell.toggle();
   } else {
     schemeCell.open();
@@ -65,8 +65,8 @@ const schemeCell = new Cell('.info__cell_type_scheme', () => {
   }
 });
 
-const economyCell = new Cell('.info__cell_type_economy', () => {
-  if (document.documentElement.clientWidth < 768) {
+const economyCell = new InfoCell('.info__cell_type_economy', () => {
+  if (document.documentElement.clientWidth <= 768) {
     economyCell.toggle();
   } else {
     schemeCell.close();
@@ -74,8 +74,8 @@ const economyCell = new Cell('.info__cell_type_economy', () => {
   }
 });
 
-const lowMobCell = new Cell('.info__cell_type_low-mob', () => {
-  if (document.documentElement.clientWidth < 768) {
+const lowMobCell = new InfoCell('.info__cell_type_low-mob', () => {
+  if (document.documentElement.clientWidth <= 768) {
     lowMobCell.toggle();
   } else {
     lowMobCell.open();
@@ -83,8 +83,8 @@ const lowMobCell = new Cell('.info__cell_type_low-mob', () => {
   }
 });
 
-const direcotrCell = new Cell('.info__cell_type_director', () => {
-  if (document.documentElement.clientWidth < 768) {
+const direcotrCell = new InfoCell('.info__cell_type_director', () => {
+  if (document.documentElement.clientWidth <= 768) {
     direcotrCell.toggle();
   } else {
     lowMobCell.close();
@@ -99,7 +99,6 @@ cellsArray.forEach((cell) => {
 })
 
 //Main page tourist swiper
-
 const touristSwiper = new Swiper('.tourist__swiper', {
   grabCursor: true,
   pagination: {
@@ -130,37 +129,5 @@ const touristSwiper = new Swiper('.tourist__swiper', {
 
 
 // Mobile menu
-
-const headerItems = document.querySelectorAll('.header__list-item');
-
-headerItems.forEach((item) => {
-  const list = item.querySelector('.header__mobile-list');
-  const arrow = item.querySelector('.header__link-btn');
-
-  item.addEventListener('click', () => {
-    list.classList.toggle('header__mobile-list_opened');
-    arrow.classList.toggle('header__link-btn_opened');
-
-    if (list.classList.contains('header__mobile-list_opened')) {
-      list.style.height = `${list.scrollHeight}px`;
-    } else {
-      list.style.height = '0px';
-    }
-  })
-})
-
-const headerWrapper = document.querySelector('.header__wrapper');
-const headerMobileBtn = document.querySelector('.header__mobile-btn');
-const headerRightSide = document.querySelector('.header__right-side');
-const headerUpper = document.querySelector('.header__upper')
-const header = document.querySelector('.header')
-const page = document.querySelector('.page');
-
-headerMobileBtn.addEventListener('click', () => {
-  headerWrapper.classList.toggle('header__wrapper_opened');
-  headerRightSide.classList.toggle('header__right-side_opened');
-  headerMobileBtn.classList.toggle('header__mobile-btn_opened');
-  headerUpper.classList.toggle('header__upper_opened');
-  page.classList.toggle('page_opened');
-  header.classList.toggle('header_opened');
-})
+const mobileMenu = new MobileMenu('.header', '.page');
+mobileMenu.setEventListeners();
